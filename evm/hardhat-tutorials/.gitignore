@@ -1,0 +1,9 @@
+**/.openzeppelin/
+
+node_modules/
+artifacts/
+cache/
+*.lock
+**/*.log
+**/.rush
+.DS_Store

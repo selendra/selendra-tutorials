@@ -1,0 +1,28 @@
+{
+  "name": "hardhat-tutorial-hello-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Selendra",
+  "license": "MIT",
+  "dependencies": {
+    "hardhat": "^2.6.8"
+  },
+  "scripts": {
+    "test": "hardhat test test/HelloWorld.js",
+    "test-selendra:local": "hardhat test test/HelloWorld.js --network selendraLocal",
+    "test-selendra:testnet": "hardhat test test/HelloWorld.js --network selendraTestnet",
+    "build": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy-selendra:local": "hardhat run scripts/deploy.js --network selendraLocal",
+    "deploy-selendra:testnet": "hardhat run scripts/deploy.js --network selendraTestnet"
+  },
+  "devDependencies": {
+    "@selendra/eth-providers": "^1.2.4",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@polkadot/api": "8.14.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "~5.5.0"
+  }
+}
