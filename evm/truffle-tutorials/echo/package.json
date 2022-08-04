@@ -1,0 +1,22 @@
+{
+  "name": "truffle-tutorial-echo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Selendra",
+  "license": "MIT",
+  "dependencies": {
+    "truffle": "^5.4.19"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.6.0"
+  },
+  "scripts": {
+    "build": "truffle compile",
+    "test": "truffle test",
+    "test-selendra:local": "truffle test --network selendraLocal",
+    "test-selendra:testnet": "truffle test --network selendraTestnet",
+    "deploy": "truffle migrate",
+    "deploy-selendra:local": "truffle migrate --network selendraLocal",
+    "deploy-selendra:testnet": "truffle migrate --network selendraTestnet"
+  }
+}
