@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "rootDirs": ["src", "/node_modules"],
+    "target": "es2019",
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+  }
+}
