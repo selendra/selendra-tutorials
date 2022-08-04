@@ -1,0 +1,9 @@
+{
+  "name": "bind_accoun",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@selendra/bind_account": "^1.0.1"
+  }
+}
